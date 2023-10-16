@@ -1,24 +1,3 @@
-def add(a,b,c):
-    return a + b - c
-
-def sub(a,b,c):
-    return a - b + c
-
-def mul(a,b,c):
-    return a * b - c
-
-def div(a,b,c):
-    return a / b * c
-
-a = int(input('input a number'))
-b = int(input('input a number'))
-c = int(input('input a number'))
-
-print('select an operation:')
-print('1. add')
-print('2. sub')
-print('3. mul')
-print('4. div')
 expression = input('Enter a mathematical expression: ')
 result = eval(expression)
 print('Result:', result)
